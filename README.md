@@ -36,6 +36,10 @@ The app uses a Supabase Edge Function to proxy requests to the fleet management 
 - Routes requests server-side to avoid CORS issues
 - Works automatically in both development and production
 - Deployed at `https://mehjhvzvqbsmsrmdpjvm.supabase.co/functions/v1/fleet-proxy`
+ "supabaseUrl": "https://yesvyqgzdfmvvyxhlwqi.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inllc3Z5cWd6ZGZtdnZ5eGhsd3FpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAzOTI3NDQsImV4cCI6MjA4NTk2ODc0NH0.TIzxBFe3-TYhF1Omc4kJ6NvRHyg1Ur38uSyO3--I0cI"
+    }
+  }
 
 For mobile platforms (iOS/Android), the app makes direct API calls to the fleet management system without needing the proxy.
 
